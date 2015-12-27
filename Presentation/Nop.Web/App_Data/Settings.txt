@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=MARCO-PC\SQLEXPRESS;Initial Catalog=lampsandlights;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=huesten09#
