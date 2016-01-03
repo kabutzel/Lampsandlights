@@ -2337,4 +2337,7 @@
   </Target>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>nuget.exe restore $(C:\Users\Marco\Documents\Visual Studio 2012\Projects\noplampsandlights\nuget.exe)</PreBuildEvent>
+  </PropertyGroup>
 </Project>
